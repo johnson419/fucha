@@ -101,21 +101,21 @@ const HOMEPAGEPage = () => {
                       </>
                     </Text>
                   </div>
-                  <div className="common-pointer bg-green_403 flex sm:flex-1 flex-col gap-[45px] items-end justify-start mb-0.5 p-[9px] rounded-[23px] w-[120px]">
+                  <div className="common-pointer bg-green_403 flex sm:flex-1 flex-col gap-[45px] items-end justify-start mb-0.5 p-[9px] rounded-[23px] w-[120px] sm:w-[120px] ">
                     <Img
                       src="images/img_plus.svg"
                       className="h-4 mt-0.5 w-4"
                       alt="plus_One"
                     />
-                    <div className="flex flex-col items-start justify-start mb-[11px] mr-1 w-auto md:w-full">
+                    <div className="flex flex-col items-start justify-start mr-1 w-auto md:w-full">
                     <Text
-                      className="font-bold mb-2.5 text-center md:ml-[0] ml-[5px] mr-[31px] text-center text-white_A700"
+                      className="font-bold  text-center ml-[10px] text-center text-white_A700"
                       variant="body2"
                     >
                       Sokoni
                     </Text>
                     <Text
-                      className="font-bold mb-2.5 text-center md:ml-[0] ml-[5px] mr-[31px] text-center text-white_A700"
+                      className="font-bold text-center ml-[10px] text-center text-white_A700"
                       variant="body2"
                     >
                       Market place
