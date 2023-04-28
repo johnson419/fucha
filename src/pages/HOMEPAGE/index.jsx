@@ -49,9 +49,9 @@ const HOMEPAGEPage = () => {
               </>
             </Text>
           </div>
-          <div className="flex flex-col items-center justify-start w-full">
-            <div className="flex md:flex-col flex-row gap-10 items-center justify-start max-w-[1123px] mb-[55px] mx-auto w-full">
-              <div className="h-[344px] md:h-[344px] mr-[3px] relative w-1/2 sm:w-full sm:h-[344px]">
+          <div className="flex flex-col items-center justify-start w-full md:mt-[50px]">
+            <div className="flex md:flex-col flex-row gap-10 md:gap-1 items-center justify-start max-w-[1123px] mb-[55px] md:mb-[10px] mx-auto w-full">
+              <div className="h-[344px] md:h-[344px] md:w-[87%] mr-[3px] relative w-1/2 sm:w-full sm:h-[344px]">
                 <Img
                   src="images/img_rectangle4_344x549.png"
                   className="h-[344px] m-auto object-cover rounded-[16px] w-full"
@@ -80,7 +80,7 @@ const HOMEPAGEPage = () => {
                 </div>
               </div>
               <div className="flex flex-col justify-start w-1/2 md:w-full">
-                <div className="flex gap-2 sm:flex-row sm:flex-wrap flex-row sm:gap-4 items-center justify-start w-full mt-[120px] sm:mt-[10px]">
+                <div className="flex gap-2 md:flex-row flex-wrap  sm:flex-row sm:flex-wrap flex-row sm:gap-4 items-center justify-start w-full mt-[120px] sm:mt-[10px] md:mt-[50px]">
                   <div className="common-pointer bg-black_900 flex sm:flex-1 flex-col gap-[45px] items-end justify-start sm:mt-0 mt-0.5 p-[9px] rounded-[23px] w-[120px] sm:w-[120px]">
                     <Img
                       src="images/img_plus.svg"
@@ -104,20 +104,20 @@ const HOMEPAGEPage = () => {
                       alt="plus_One"
                     />
                     <div className="flex flex-col items-start justify-start mr-1 w-auto ">
-                  <Text
-                    className="font-bold  text-center ml-[10px] text-center text-white_A700"
-                    variant="body2"
-                  >
-                    Sokoni
-                  </Text>
-                  <Text
-                    className="font-bold text-center ml-[10px] text-center text-white_A700"
-                    variant="body2"
-                  >
-                    Market place
-                  </Text>
-                </div>
-              </div>
+                      <Text
+                        className="font-bold  text-center ml-[10px] text-center text-white_A700"
+                        variant="body2"
+                      >
+                        Sokoni
+                      </Text>
+                      <Text
+                        className="font-bold text-center ml-[10px] text-center text-white_A700"
+                        variant="body2"
+                      >
+                        Market place
+                      </Text>
+                    </div>
+                  </div>
 
                   <div className="common-pointer bg-indigo_A200 flex sm:flex-1 flex-col gap-[45px] items-end justify-start mb-0.5 p-2 rounded-[23px] w-[120px] sm:w-[120px]">
                     <Img
@@ -150,9 +150,9 @@ const HOMEPAGEPage = () => {
                     </Text>
                   </div>
                 </div>
-                <div className="flex flex-col h-[344px] md:h-[505px] mr-[3px] items-start justify-start md:mt-0 mt-[5px] w-[100%] md:w-full">
+                <div className="flex flex-col h-[344px] md:h-[344px] lg:h-[344px] mr-[3px] items-start justify-start md:mt-0 mt-[5px] w-[100%] md:w-full">
                   <Text
-                    className="font-bold ml-0.5 md:ml-[0] mt-[43px] text-black_900 text-left"
+                    className="font-bold ml-0.5 md:ml-[0] mt-[40px] text-black_900 text-left"
                     as="h4"
                     variant="h4"
                   >
@@ -167,18 +167,16 @@ const HOMEPAGEPage = () => {
                     variant="h4"
                   >
                     <>
-                      For the first time we have created an application that{" "}
-                      <br />
-                      will allow you to impact real change while earning
-                      <br />
-                      carbon credits. Our platform features plastic collectors
-                      and recycling projects
+                      For the first time we have created an application that
+                      will allow you to impact real change while earning carbon
+                      credits. Our platform features plastic collectors and
+                      recycling projects
                     </>
                   </Text>
                 </div>
               </div>
             </div>
-            <div className="flex flex-row md:gap-10 items-end justify-between mt-[22px] w-[99%] md:w-full">
+            <div className="flex flex-row md:gap-4 mt-[0px] items-end justify-between mt-[22px] w-[99%] md:w-full">
               <Text
                 className="text-black_900 text-left w-auto"
                 as="h3"
@@ -201,7 +199,7 @@ const HOMEPAGEPage = () => {
                 />
               </div>
             </div>
-            <div className="flex flex-col items-center justify-start mt-[15px] shadow-bs w-full">
+            <div className="flex flex-col items-center justify-start mt-[10px] shadow-bs w-full">
               <div className="flex md:flex-col flex-row gap-[11px] items-start justify-start max-w-[1175px] overflow-auto sm:pr-5 pr-[25px] w-full">
                 <Carousel />
               </div>
