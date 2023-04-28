@@ -38,17 +38,10 @@ const LOGINPAGEPage = () => {
           <div className="flex md:flex-1 flex-col justify-start w-[48%] md:w-full">
             <div className="h-[125px] md:ml-[0] ml-[15px] relative w-[86%] sm:w-full">
               <Text
-                className="m-auto text-black_900 text-left"
+                className="m-auto text-black_900 text-left mt-10"
                 as="h1"
                 variant="h1"
               >
-                 
-              <Img
-                src="images/img_mainlogo.svg"
-                className="h-[40px] inset-x-[0] mx-auto top-[10%] w-inherit"
-                alt="mainlogo"
-              />
-            
                 <>
                   Karibu
                   <br />
@@ -57,7 +50,7 @@ const LOGINPAGEPage = () => {
               </Text>
             </div>
             <Text
-              className="md:ml-[0] ml-[134px] mt-[100px] text-black_900 text-left w-auto"
+              className="md:ml-[0] ml-[134px] mt-[100px] text-black_900 text-left w-auto sm:mt-[20px]"
               as="h2"
               variant="h2"
             >
@@ -83,7 +76,7 @@ const LOGINPAGEPage = () => {
             </div>
           </div>
           <div className="flex md:flex-1 flex-col justify-start w-1/2 md:w-full">
-            <div className="h-[344px] md:h-[505px] mr-[3px] mt-[50px] relative w-full">
+            <div className="h-[344px] md:h-[505px] mr-[3px] mt-[50px] relative w-full sm:h-[374px]">
               <Img
                 src="images/img_rectangle4.png"
                 className="h-[344px] m-auto object-cover rounded-[16px] w-full"
@@ -99,7 +92,7 @@ const LOGINPAGEPage = () => {
               <div className="absolute flex flex-col md:gap-10 gap-[118px] h-max inset-[0] justify-center m-auto w-[85%]">
                 <Text
                   className="font-semibold mr-[25px] text-left text-white_A700"
-                  as="h6"     
+                  as="h6"
                   variant="h6"
                 >
                   <>
@@ -111,7 +104,7 @@ const LOGINPAGEPage = () => {
                 </Text>
               </div>
             </div>
-            <div className="flex sm:flex-row sm:flex-wrap flex-row sm:gap-10 items-center justify-between w-full">
+            <div className="flex sm:flex-row sm:flex-wrap flex-row sm:gap-10 items-center justify-between w-full mt-3">
               <div className="common-pointer bg-black_900 flex sm:flex-1 flex-col gap-[45px] items-end justify-start sm:mt-0 mt-0.5 p-[9px] rounded-[23px] w-[120px] sm:w-[120px]">
                 <Img
                   src="images/img_plus.svg"
